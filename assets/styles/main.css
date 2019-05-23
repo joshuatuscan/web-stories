@@ -1,0 +1,33 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #221d23;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-image: url(../images/mac.png);
+  background-size: 100% auto;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+}
