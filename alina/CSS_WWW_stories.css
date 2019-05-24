@@ -1,0 +1,38 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 45px;
+  background: -webkit-linear-gradient(left, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+hr.lineup1 {
+  margin-top: -10px;
+}
+p.cursivedefault {
+  margin-top: -2px;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+td h3 {
+  font-size: 50px;
+}
+h2 {
+  margin-top: -5px;
+}
+h2.secondparagraph {
+  margin-top: 40px;
+}
+p.references {
+  font-size: 12px;
+  margin-top: -5px;
+}
+a {
+  background: -webkit-linear-gradient(left, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
