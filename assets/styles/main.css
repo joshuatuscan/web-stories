@@ -11,8 +11,6 @@ html {
 /*
 
 font-family: 'Press Start 2P', cursive;
-font-family: 'VT323', monospace;
-font-family: 'Bungee Shade', cursive;
 font-family: 'Monoton', cursive;
 
 */
@@ -20,7 +18,6 @@ font-family: 'Monoton', cursive;
 body {
   /* background-color: #221d23;
   background-color: #3d3236; */
-  background-color: #231205;
   background-color: #251202;
   padding: 0;
   margin: 0;
@@ -35,7 +32,6 @@ h4,
 h5,
 h6 {
   color: white;
-  font-family: "Bungee Shade", cursive;
   font-family: "Monoton", cursive;
   margin: 0;
 }
@@ -54,8 +50,6 @@ h1 span {
 
 main {
   background-image: url(../images/mac.png);
-  /* background-size: 60% auto;
-  background-position: 5% center; */
   background-size: 80% auto;
   background-position: -80% center;
   background-repeat: no-repeat;
@@ -67,7 +61,6 @@ main {
 }
 
 nav {
-  /* background-color: lightblue; */
   display: flex;
   position: fixed;
   align-items: center;
@@ -83,10 +76,6 @@ nav ul {
   margin: 0;
   padding: 0;
   transform: translateY(-12%);
-  /* position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%); */
 }
 
 nav li {
@@ -96,7 +85,6 @@ nav li {
 nav a {
   color: rgba(255, 255, 255, 0.8);
   display: inline-block;
-  /* font-family: "VT323", monospace; */
   font-family: "Press Start 2P", cursive;
   font-size: 1.45vw;
   position: relative;
